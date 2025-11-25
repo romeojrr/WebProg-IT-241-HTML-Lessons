@@ -1,15 +1,15 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(59, 234, 71);
+    background-color: #714d1d;
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
 }
 
 .container div {
-    background-color: #f8e8d3;
-    width: 180px
+    background-color: #e6d11c;
+    width: 100px
     margin: 10px;
     padding: 10px;
     text-align: center;
