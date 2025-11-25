@@ -1,14 +1,21 @@
 .container {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(172, 169, 0);
+  background-color: rgb(59, 234, 71);
 }
  
 .container div {
-  background-color: #83623f;
+  background-color: #000000;
   width: 100px;
   margin: 10px;
   padding: 10px;
   text-align: center;  
   font-size: 30px;
+  
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 }
