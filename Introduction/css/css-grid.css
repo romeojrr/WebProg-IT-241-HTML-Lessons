@@ -1,22 +1,4 @@
-body > p {
-    text-align: center;
-}
-
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: rgb(216, 234, 16);
-  padding: 5px;
-  gap: 5px;
-}
-.container div {
-  background-color: #f1f1f1;
-  color: #000;
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
-  
-}.container {
     display: flex;
     flex-wrap: wrap;
     background-color: #714d1d;
@@ -31,4 +13,23 @@ body > p {
     padding: 10px;
     text-align: center;
     font-size: 20px;
+}
+
+body > p {
+    text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: dodgerblue;
+  padding: 5px;
+  gap: 5px;
+}
+.container div {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
 }
